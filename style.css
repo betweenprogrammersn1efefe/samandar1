@@ -1,0 +1,256 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.section-a {
+  padding: 2% 2%; }
+  .section-a .first-navbar {
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    top: 0; }
+    .section-a .first-navbar .container img {
+      width: 30px;
+      height: 30px;
+      margin-top: 12px; }
+    .section-a .first-navbar .container h2 {
+      margin-top: 6px;
+      cursor: pointer; }
+    .section-a .first-navbar .container .navbar .navbar-nav {
+      margin-left: 150px; }
+      .section-a .first-navbar .container .navbar .navbar-nav .nav-item .nav-link {
+        color: #090941;
+        font-family: Calibri,sans-serif;
+        font-size: 20px;
+        margin-left: 30px; }
+      .section-a .first-navbar .container .navbar .navbar-nav .nav-item .nav-link:hover {
+        color: red; }
+    .section-a .first-navbar .container button {
+      margin-left: 150px;
+      border: 2px solid #090965;
+      font-size: 17px;
+      color: #0f0f81;
+      font-family: Calibri,sans-serif;
+      margin-top: 11px; }
+    .section-a .first-navbar .container button:hover {
+      background-color: red;
+      color: white; }
+
+.section-b .container img {
+  width: 55%;
+  height: 450px; }
+.section-b .container .write {
+  padding: 4% 5%; }
+  .section-b .container .write .col-3 .card {
+    border: none; }
+    .section-b .container .write .col-3 .card h2 {
+      color: #090941;
+      font-family: Calibri, sans-serif;
+      font-size: 35px; }
+    .section-b .container .write .col-3 .card p {
+      font-size: 16px;
+      color: #090941;
+      border: none;
+      margin-top: 35px; }
+  .section-b .container .write button {
+    margin-top: 35px; }
+
+.section-c .container .row img {
+  width: 200px;
+  height: auto;
+  margin-top: 30px; }
+.section-c .container .row p {
+  font-size: 14px; }
+.section-c .container .row .invest {
+  margin-top: 15px;
+  margin-left: 60px; }
+  .section-c .container .row .invest p {
+    margin-left: 22px;
+    margin-top: 15px; }
+.section-c .container .row .trust {
+  margin-left: 60px;
+  margin-top: 55px; }
+  .section-c .container .row .trust h5 {
+    color: #0a0a54; }
+.section-c .container .row .trust1 {
+  margin-left: 60px;
+  margin-top: 60px; }
+  .section-c .container .row .trust1 h5 {
+    color: #0a0a54; }
+.section-c .container .row .trust2 {
+  margin-left: 60px;
+  margin-top: 40px; }
+  .section-c .container .row .trust2 h5 {
+    position: absolute;
+    z-index: 1111;
+    margin-top: 20px; }
+  .section-c .container .row .trust2 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 11;
+    margin-left: 35px; }
+  .section-c .container .row .trust2 p {
+    margin-top: 60px; }
+.section-c .container .row .trust3 {
+  margin-left: 60px;
+  margin-top: 40px; }
+  .section-c .container .row .trust3 h5 {
+    position: absolute;
+    z-index: 1111;
+    margin-top: 20px; }
+  .section-c .container .row .trust3 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 11;
+    margin-left: 35px; }
+  .section-c .container .row .trust3 p {
+    margin-top: 60px; }
+
+.section-d .container .row {
+  margin-top: 50px;
+  margin-left: 40px; }
+  .section-d .container .row .col-4 .card {
+    border: none; }
+    .section-d .container .row .col-4 .card h2 {
+      font-size: 60px; }
+    .section-d .container .row .col-4 .card .d-flex button {
+      margin-top: 30px; }
+  .section-d .container .row img {
+    width: 300px;
+    height: 550px;
+    margin-left: 40px;
+    margin-top: 20px; }
+  .section-d .container .row .col-4 .card .card1 .img1 {
+    width: 50px;
+    height: 50px; }
+  .section-d .container .row .col-4 .card .card1 h4 {
+    margin-top: 25px;
+    color: #090941; }
+  .section-d .container .row .col-4 .card .card1 p {
+    margin-top: 25px;
+    margin-left: 110px; }
+  .section-d .container .row .col-4 .card .col-6 .card {
+    margin-left: 30px;
+    width: 280px; }
+  .section-d .container .row .col-4 {
+    margin-top: 50px; }
+    .section-d .container .row .col-4 .card .card2 .img2 {
+      width: 50px;
+      height: 50px; }
+    .section-d .container .row .col-4 .card .card2 h4 {
+      margin-top: 25px;
+      color: #090941; }
+    .section-d .container .row .col-4 .card .card2 p {
+      margin-top: 25px;
+      margin-left: 110px; }
+    .section-d .container .row .col-4 .card .col-6 .card {
+      width: 350px; }
+
+.section-e .container .row {
+  margin-top: 100px;
+  margin-left: 100px; }
+  .section-e .container .row .img1 {
+    margin-left: 50px;
+    height: 300px;
+    margin-top: 143px;
+    position: absolute;
+    z-index: 111; }
+  .section-e .container .row .img3 {
+    width: 280px;
+    height: 500px;
+    margin-left: 280px; }
+  .section-e .container .row .col-4 {
+    margin-left: 30px;
+    margin-top: 50px; }
+    .section-e .container .row .col-4 .card {
+      border: none; }
+      .section-e .container .row .col-4 .card h5 {
+        font-size: 40px; }
+      .section-e .container .row .col-4 .card .d-flex button {
+        margin-top: 30px; }
+
+.section-f {
+  background-color: #47479a; }
+  .section-f .container {
+    background-color: #47479a; }
+    .section-f .container .row {
+      margin-top: 100px; }
+      .section-f .container .row .col-4 {
+        margin-left: 30px;
+        margin-top: 50px; }
+        .section-f .container .row .col-4 .card {
+          background-color: #47479a;
+          border: none; }
+          .section-f .container .row .col-4 .card h5 {
+            font-size: 60px;
+            color: white; }
+          .section-f .container .row .col-4 .card p {
+            color: white; }
+      .section-f .container .row img {
+        margin-left: 130px;
+        width: 600px;
+        height: 500px;
+        cursor: pointer; }
+
+.section-g {
+  background-color: #090941;
+  height: 500px; }
+  .section-g .container .row .col-4 .card {
+    padding: 2% 3%; }
+    .section-g .container .row .col-4 .card p {
+      font-size: 15px;
+      margin-left: 15px; }
+    .section-g .container .row .col-4 .card h2 {
+      font-size: 37px;
+      margin-left: 15px; }
+
+.section-h .container img {
+  width: 500px;
+  height: 500px;
+  margin-left: 300px;
+  margin-top: 100px; }
+.section-h .container .col-8 .card {
+  margin-left: 230px;
+  border: none;
+  width: 600px; }
+  .section-h .container .col-8 .card h2 {
+    font-size: 45px;
+    color: #07075e; }
+.section-h .container button {
+  margin-left: 530px;
+  margin-top: 50px;
+  background-color: #45458c;
+  color: white; }
+.section-h .container h3 {
+  font-size: 17px;
+  margin-top: 100px;
+  margin-left: 515px; }
+
+.section-j {
+  padding: 5% 5%;
+  margin-top: 100px;
+  background-color: #1e1e1f; }
+  .section-j .container .d-flex h2 {
+    margin-top: 3px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer; }
+  .section-j .container .row {
+    margin-left: 30px;
+    color: #ada8a8;
+    cursor: pointer; }
+    .section-j .container .row .dard:hover {
+      color: white; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue; }
+    body .section-b .container img {
+      width: 50%;
+      height: 50%; } }
+
+/*# sourceMappingURL=style.css.map */
